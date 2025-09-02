@@ -38,7 +38,9 @@
   services.networkmanager.enable = true;
 
   # Useful packages system-wide
-  environment.systemPackages = with pkgs; [];
+  environment.systemPackages = with pkgs; [
+    home-manager
+  ];
 
   # Allow unfree packages if needed
   nixpkgs.config.allowUnfree = true;
