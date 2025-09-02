@@ -17,6 +17,7 @@
     dnsmasq
     git
     bat
+    fd
     fzf
     ripgrep-all
     lsd
@@ -46,6 +47,8 @@
     waybar
     cmake
     rustup
+    uv
+    fx
     just
     go
     lua
@@ -94,7 +97,23 @@
     home-manager
     navi
     quickshell
+    alertmanager
+    sops
+    easeprobe
+    snap
+    apparmor
+    systemctl-tui
+    syncoid
+    btrfs-progs
+    snapper
+    rsyslog
+    logrotate
   ];
+
+  #Yazi apparently has a pkg manager called "ya" .. get yazi riced out and fix it so it fits the large monitor.
+  #Investigate 'Nushell' -- 
+  #Find the pkg "systemd-manager-tui" that you had on arch linux.
+
 
   wayland.windowManager.hyprland = {
     enable = true;
