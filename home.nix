@@ -110,6 +110,7 @@
     logrotate
   ];
 
+  #Create a path '/etc/nixos/modules' and create personal modules! i.e. packages.nix (can delete the above and import packages.nix), shell.nix, etc.
   #Yazi apparently has a pkg manager called "ya" .. get yazi riced out and fix it so it fits the large monitor.
   #Investigate 'Nushell' -- 
   #Find the pkg "systemd-manager-tui" that you had on arch linux.
